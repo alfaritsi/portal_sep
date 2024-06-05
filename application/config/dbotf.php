@@ -1,0 +1,51 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+$config['ranger_db'] = array(
+    'dsn' => '',
+//    'hostname' => '10.0.10.6\\DEPOT',
+    'hostname' => '10.0.0.28',
+//    'username' => 'sa',
+//    'password' => 'sql123$',
+    'username' => 'kmtr',
+    'password' => 'sangtimur21',
+    'database' => 'TIMBANGAN',
+    'dbdriver' => 'mssql',
+    'dbprefix' => '',
+    'pconnect' => FALSE,
+    'db_debug' => (ENVIRONMENT !== 'production'),
+    'cache_on' => FALSE,
+    'cachedir' => '',
+    'char_set' => 'utf8',
+    'dbcollat' => 'utf8_general_ci',
+    'swap_pre' => '',
+    'encrypt' => FALSE,
+    'compress' => FALSE,
+    'stricton' => FALSE,
+    'failover' => array(),
+    'save_queries' => TRUE
+);
+$config['DWJ1'] = array(
+    'dsn' => '',
+//    'hostname' => '10.0.10.6\\DEPOT',
+    'hostname' => '10.0.24.4\\SQLDWJ1',
+//    'username' => 'sa',
+//    'password' => 'sql123$',
+    'username' => 'kmtr',
+    'password' => 'sangtimur21',
+    'database' => 'TIMBANGAN_DWJ1',
+    'dbdriver' => 'mssql',
+    'dbprefix' => '',
+    'pconnect' => FALSE,
+    'db_debug' => (ENVIRONMENT !== 'production'),
+    'cache_on' => FALSE,
+    'cachedir' => '',
+    'char_set' => 'utf8',
+    'dbcollat' => 'utf8_general_ci',
+    'swap_pre' => '',
+    'encrypt' => FALSE,
+    'compress' => FALSE,
+    'stricton' => FALSE,
+    'failover' => array(),
+    'save_queries' => TRUE
+);
